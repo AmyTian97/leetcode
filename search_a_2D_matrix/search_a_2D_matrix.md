@@ -1,12 +1,12 @@
-### Search a 2D matrix (row sorted)
+# Search a 2D matrix (row sorted)
 
-Goal: Search an item in a 2D matrix that **every row is sorted** in a non-decreasing order.
+Goal: Search an item in a 2D matrix that **every row is sorted** in a non-decreasing order.
 
 A matrix: Array of array (matrix\[row\][col]).
 
 Sorted: Consider binary search, O(log(n)) (If not, probably not optimal).
 
-##### Variance 1:
+### Variance 1:
 
 **Row continuity:** Last item in a row is greater or equal to the first item in the previous row. <u>**O(log(m*n))**</u>
 
@@ -22,7 +22,7 @@ i = 1DimensionalIndex
 
 
 
-##### Variance 2:
+### Variance 2:
 
 **Row discontinuity:** Column is sorted in a non-decreasing order. <u>**O(m + n)**</u>
 
