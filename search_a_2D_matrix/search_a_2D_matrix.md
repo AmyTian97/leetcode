@@ -56,7 +56,7 @@ row = 0, col = 3: 11 > target => we want to decrease value; going down will only
 
 row = 0, col = 2: 7 == target => Find!
 
-d) Start form lower left corner: works too:)
+d) Start from lower left corner: works too:)
 
 
 
